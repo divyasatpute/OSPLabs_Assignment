@@ -1,0 +1,17 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+*.tfvars.json
+.terraform.lock.hcl
+
+# Database backups (generated locally, not committed)
+database/backups/*.sql
+
+# OS/editor
+.DS_Store
+*.swp
